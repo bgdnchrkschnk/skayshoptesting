@@ -1,0 +1,6 @@
+pytest
+selenium
+click
+pyyaml
+pytest-xdist
+requests
