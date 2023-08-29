@@ -20,3 +20,4 @@ def get_env_home_page_url(env: str):
         return "https://dev.skay.ua/"
     elif env == "stage":
         return "https://stage.skay.ua/"
+
