@@ -1,4 +1,5 @@
 from enum import Enum
+from page_objects.base_page import *
 from page_objects.products_page import *
 
 

@@ -1,4 +1,7 @@
+import pytest
+
 import envs.helpers
+from web_elements.product_item import ProductItemWebElement
 
 
 def test_site_is_loaded(browser):
@@ -8,4 +11,12 @@ def test_site_is_loaded(browser):
 
 def test_sales_products_all_items_with_sales_price(browser):
     browser = browser.navigate_to_sales_products()
-    assert len(browser.products)>20
+    for product in browser.products:
+        assert ProductItemWebElement(product).price, f"Sales price is absent on {ProductItemWebElement(product).title}"
+
+@pytest.mark.this
+def test_buy_product(browser):
+    browser = browser.find_something_in_search_bar(something="00000037607-013")
+    product_item: ProductItemWebElement = browser.get_product_item_by_article(article="00000037607-013")
+    # product_item.buy_button
+

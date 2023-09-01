@@ -1,5 +1,4 @@
-from page_objects.base_page import *
-from locators.home_page import *
+from locators.pages_obj.home_page import *
 
 
 # Implement class home page elements to interact with
@@ -17,3 +16,4 @@ class HomePage(BasePage):
         from page_objects.products_page import ProductsPage
         self.webdriver.get("https://skay.ua/uk/prices-drop/")
         return ProductsPage(webdriver=self.webdriver)
+

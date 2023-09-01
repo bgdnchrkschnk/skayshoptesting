@@ -1,0 +1,17 @@
+1693436632912	geckodriver	INFO	Listening on 127.0.0.1:50978
+1693436633384	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/hn/29kq9z8d72g9p0twnx7z0wpw0000gn/T/rust_mozprofilemQkM6x"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693436634123	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1693436634449	Marionette	INFO	Listening on port 51011
+Read port: 51011
+WebDriver BiDi listening on ws://127.0.0.1:50979
+1693436634650	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:50979/devtools/browser/a68bec7d-c0c2-4806-9185-24257acc865b
+1693436637235	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1693436640185	Marionette	INFO	Stopped listening on port 51011
+JavaScript warning: https://skay.ua/modules/belvg_preorderproducts/js/jquery.countdown.js, line 58: Script terminated by timeout at:
+timerCallBack@https://skay.ua/modules/belvg_preorderproducts/js/jquery.countdown.js:58:20
+

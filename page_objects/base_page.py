@@ -42,3 +42,4 @@ class BasePage:
         self.actions.send_keys_to_element(self.search_bar, something).click(on_element=self.search_button).perform()
         return ProductsPage(webdriver=self.webdriver)
 
+
