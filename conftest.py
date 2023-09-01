@@ -1,2 +1,2 @@
-from fixtures.driver import *
+from fixtures.browser import *
 from fixtures.test_hooks import *

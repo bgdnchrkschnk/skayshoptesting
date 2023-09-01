@@ -15,9 +15,9 @@ def get_driver(browser_name: str):
 # Get url home page link depending on entered --env
 def get_env_home_page_url(env: str):
     if env == "prod":
-        return "https://skay.ua/"
+        return "https://skay.ua/uk/"
     elif env == "dev":
-        return "https://dev.skay.ua/"
+        return "https://dev.skay.ua/uk/"
     elif env == "stage":
-        return "https://stage.skay.ua/"
+        return "https://stage.skay.ua/uk/"
 
