@@ -1,8 +1,0 @@
-# created by virtualenv automatically
-/.idea/
-/bin/
-/.pytest_cache/
-/lib/
-/venv/
-/.hypothesis/
-.gitignore
