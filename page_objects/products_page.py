@@ -9,7 +9,7 @@ class ProductsPage(BasePage):
 
     @property
     def products(self):
-        return self.wait.until(EC.visibility_of_all_elements_located((ProductsPageLocators.PRODUCTS_ON_PAGE.by, ProductsPageLocators.PRODUCTS_ON_PAGE.locator)))
+        return self.wait.until(EC.visibility_of_all_elements_located(ProductsPageLocators.PRODUCTS_ON_PAGE.value))
 
     def __get_product_item_by_(self, title: str = None, article: str = None):
         if title:

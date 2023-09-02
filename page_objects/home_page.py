@@ -11,7 +11,7 @@ class HomePage(BasePage):
     # Set as property to return popular product block
     @property
     def popular_products_block(self):
-        return self.wait.until(EC.visibility_of_any_elements_located((HomePageLocators.POPULAR_BLOCK.by, HomePageLocators.POPULAR_BLOCK.locator)))[1]
+        return self.wait.until(EC.visibility_of_any_elements_located(HomePageLocators.POPULAR_BLOCK.value))[1]
 
     def navigate_to_sales_products(self):
         from page_objects.products_page import ProductsPage

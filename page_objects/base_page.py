@@ -32,15 +32,15 @@ class BasePage:
     # General base elements to interact with
     @property
     def search_bar(self):
-        return self.wait.until(EC.element_to_be_clickable((BasePageLocators.SEARCH_BAR.by, BasePageLocators.SEARCH_BAR.locator)))
+        return self.wait.until(EC.element_to_be_clickable(BasePageLocators.SEARCH_BAR.value))
 
     @property
     def search_button(self):
-        return self.wait.until(EC.element_to_be_clickable((BasePageLocators.SEARCH_BUTTON.by, BasePageLocators.SEARCH_BUTTON.locator)))
+        return self.wait.until(EC.element_to_be_clickable(BasePageLocators.SEARCH_BUTTON.value))
 
     @property
     def cart(self):
-        return self
+        return self.wait.until(EC.element_to_be_clickable((BasePageLocators.CART.value)))
 
 
     def find_something_in_search_bar(self, something: str):
