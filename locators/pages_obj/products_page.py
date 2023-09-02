@@ -5,3 +5,5 @@ from page_objects.products_page import *
 
 class ProductsPageLocators(BaseLocators):
     PRODUCTS_ON_PAGE = (By.CSS_SELECTOR, " .product-container")
+    PURCHASE_POPUP = (By.CSS_SELECTOR, ".layer_cart_product")
+    PURCHASE_POPUP_ARTICLE_DIV = (By.CSS_SELECTOR, ".cart-reference")

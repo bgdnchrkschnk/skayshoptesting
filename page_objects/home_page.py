@@ -18,3 +18,7 @@ class HomePage(BasePage):
         self.webdriver.get("https://skay.ua/uk/prices-drop/")
         return ProductsPage(webdriver=self.webdriver)
 
+    def navigate_to_authorization_page(self):
+        from page_objects.authorization_page import AuthorizationPage
+        self.webdriver.get("https://skay.ua/uk/authentication/")
+        return AuthorizationPage(webdriver=self.webdriver)

@@ -11,6 +11,10 @@ class ProductsPage(BasePage):
     def products(self):
         return self.wait.until(EC.visibility_of_all_elements_located(ProductsPageLocators.PRODUCTS_ON_PAGE.value))
 
+    @property
+    def purchase_popup(self):
+        return self.wait.until(EC.visibility_of_element_located(ProductsPageLocators.PURCHASE_POPUP.value))
+
     def __get_product_item_by_(self, title: str = None, article: str = None):
         if title:
             if len(self.products) > 1:
@@ -34,3 +38,18 @@ class ProductsPage(BasePage):
     def get_product_item_by_article(self, article: str):
         product_item = self.__get_product_item_by_(article=article)
         return ProductItemWebElement(webelement=product_item)
+
+
+    def get_product_item_by_title(self, title: str):
+        product_item = self.__get_product_item_by_(title=title)
+        return ProductItemWebElement(webelement=product_item)
+
+
+    def check_product_in_popup_by_article(self, article: str):
+        elements = self.purchase_popup.find_elements(ProductsPageLocators.PURCHASE_POPUP_ARTICLE_DIV.by,
+                                                     ProductsPageLocators.PURCHASE_POPUP_ARTICLE_DIV.locator)
+        for element in elements:
+            if article in element.text:
+                return True
+        else:
+            return False

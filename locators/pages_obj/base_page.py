@@ -1,6 +1,5 @@
 from selenium.webdriver.common.by import By
 from locators.base_locators import BaseLocators
-from page_objects.base_page import *
 
 
 class BasePageLocators(BaseLocators):
