@@ -1,7 +1,5 @@
 from time import sleep
-
 import pytest
-from selenium.webdriver.common.by import By
 
 import envs.helpers
 from web_elements.product_item import ProductItemWebElement
