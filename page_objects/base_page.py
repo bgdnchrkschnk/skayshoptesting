@@ -2,6 +2,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+from locators.pages_obj.base_page import *
 
 
 
@@ -31,11 +32,12 @@ class BasePage:
     # General base elements to interact with
     @property
     def search_bar(self):
-        return self.wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "#search_query_top")))
+        return self.wait.until(EC.element_to_be_clickable((CssBasePageLocators.SEARCH_BAR.by, CssBasePageLocators.SEARCH_BAR.locator)))
 
     @property
     def search_button(self):
         return self.wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "[name=submit_search]")))
+
 
     def find_something_in_search_bar(self, something: str):
         from page_objects.products_page import ProductsPage
