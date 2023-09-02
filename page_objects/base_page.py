@@ -1,10 +1,8 @@
-from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver import ActionChains
+from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
+
 from locators.pages_obj.base_page import *
-
-
 
 
 # Implement class of general mutual elements of all pages to interact with
@@ -40,12 +38,14 @@ class BasePage:
 
     @property
     def cart(self):
-        return self.wait.until(EC.element_to_be_clickable((BasePageLocators.CART.value)))
+        return self.wait.until(EC.element_to_be_clickable(BasePageLocators.CART.value))
 
+    @property
+    def cart_counter(self):
+        element = self.wait.until(EC.element_to_be_clickable(BasePageLocators.CART_COUNTER.value))
+        return element.text
 
     def find_something_in_search_bar(self, something: str):
         from page_objects.products_page import ProductsPage
         self.actions.send_keys_to_element(self.search_bar, something).click(on_element=self.search_button).perform()
         return ProductsPage(webdriver=self.webdriver)
-
-
