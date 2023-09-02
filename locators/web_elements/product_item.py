@@ -1,9 +1,11 @@
 from enum import Enum
 
-from web_elements.product_item import *
+from selenium.webdriver.common.by import By
+
+from locators.base_locators import BaseLocators
 
 
-class ProductItemsLocators(Enum):
+class ProductItemsLocators(BaseLocators):
     PRODUCT_TITLE = (By.CSS_SELECTOR, " .product-name>span")
     PRODUCT_PRICE = (By.CSS_SELECTOR, " .new-item-price.product-price")
     PRODUCT_ARTICLE = (By.CSS_SELECTOR, " .item-refeence-id:last-child")

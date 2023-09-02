@@ -9,7 +9,7 @@ class ProductItemWebElement:
 
     @property
     def title(self):
-        element = self.__web_element.find_element(ProductItemsLocators.PRODUCT_TITLE.value)
+        element = self.__web_element.find_element(ProductItemsLocators.PRODUCT_TITLE.by, ProductItemsLocators.PRODUCT_TITLE.locator)
         return element.text
 
     def old_price(self):
@@ -17,15 +17,15 @@ class ProductItemWebElement:
 
     @property
     def price(self):
-        element = self.__web_element.find_element(ProductItemsLocators.PRODUCT_PRICE.value)
+        element = self.__web_element.find_element(ProductItemsLocators.PRODUCT_PRICE.by, ProductItemsLocators.PRODUCT_PRICE.locator)
         return element.text
 
     @property
     def buy_button(self):
-        element = self.__web_element.find_element(ProductItemsLocators.PRODUCT_BUY_BUTTON.value)
-        return element.text
+        element = self.__web_element.find_element(ProductItemsLocators.PRODUCT_BUY_BUTTON.by, ProductItemsLocators.PRODUCT_BUY_BUTTON.locator)
+        return element
 
     @property
     def article(self):
-        element = self.__web_element.find_element(ProductItemsLocators.PRODUCT_ARTICLE)
+        element = self.__web_element.find_element(ProductItemsLocators.PRODUCT_ARTICLE.by, ProductItemsLocators.PRODUCT_TITLE.locator)
         return element.text
