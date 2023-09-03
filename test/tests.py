@@ -6,7 +6,7 @@ from web_elements.product_item import ProductItemWebElement
 
 
 def test_site_is_loaded(browser):
-    # assert browser.webdriver.current_url == envs.helpers.get_env_home_page_url(env="prod"), "Incorrect home page loaded!"
+    assert browser.webdriver.current_url == "https://skay.ua/uk/", "Incorrect home page loaded!"
     assert browser.check_popular_products_block_is_displayed(), "Popular items block is absent on home page!"
 
 
@@ -26,13 +26,14 @@ def test_buy_product(browser):
     assert browser.check_product_in_popup_by_article(article="00000037607-013"), "Product has not been found by '00000037607-013' article!"
     assert browser.cart_counter == "1"
 
-
+# @pytest.mark.this
 def test_site_language(browser):
     assert browser.language_button, "Language button is not found on page!"
     browser.language_button.click()
     browser.select_language(language="ru")
 
-@pytest.mark.this
+
 def test_register_already_used_email(browser):
     browser = browser.navigate_to_authorization_page()
     browser.signup(email="bgdnchrkschnk@gmail.com")
+    assert browser.create_account_error_block, "Error block has not asserted on page after existing email entered to signup"

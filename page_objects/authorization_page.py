@@ -22,9 +22,17 @@ class AuthorizationPage(BasePage):
         return self.wait.until(EC.element_to_be_clickable(AuthorizationPageLocators.CREATE_ACCOUNT_BUTTON_REG.value))
 
     def signup(self, email: str):
-        self.actions.\
-            send_keys_to_element(email, self.email_field_reg).\
-            click(self.create_account_button_reg).perform()
+        self.actions\
+            .send_keys_to_element(self.email_field_reg, email)\
+            .pause(2)\
+            .click(self.create_account_button_reg)\
+            .pause(1)\
+            .perform()
+
+    @property
+    def create_account_error_block(self):
+        return self.wait.until(EC.presence_of_element_located(AuthorizationPageLocators.CREATE_ACCOUNT_ERROR_BLOCK.value))
+
 
     """
     SIGN IN BLOCK ------------------------------------------------------------------------------------------------------

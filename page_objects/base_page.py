@@ -61,17 +61,12 @@ class BasePage:
         if language == "ua" or language == 'uk':
             button_ua = self.wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "[title=Ukrainian]")))
             button_ua.click()
-            from page_objects.home_page import HomePage
-            sleep(3)
-            assert "Популярні товари" in HomePage(webdriver=self.webdriver).popular_products_block.text, f"Failed to switch language to {language} :/"
+            assert self.wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, "//a[contains(text(), 'Товари зізнижками')]")))
         elif language == "ru":
             button_ru = self.wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "[title=Russian]")))
-            sleep(1)
             button_ru.click()
-            from page_objects.home_page import HomePage
-            sleep(3)
-            for block in HomePage(webdriver=self.webdriver).popular_products_block:
-                if "Популярные товары" in block.text:
-                    assert block.is_enabled() and block.is_displayed()
+            expected_line = self.wait.until(EC.visibility_of_element_located((By.XPATH, "//a[contains(text(), 'Товары со скидками')]")))
+            assert expected_line
+
         else:
             raise ValueError("Available languages: ua/uk, ru")

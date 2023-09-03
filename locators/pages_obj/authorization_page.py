@@ -9,3 +9,4 @@ class AuthorizationPageLocators(BaseLocators):
     CREATE_BUTTON_SIGNIN = (By.CSS_SELECTOR, "#passwd")
     SIGN_IN_BUTTON = (By.CSS_SELECTOR, "#SubmitLogin")
     FORGOT_PW = (By.CSS_SELECTOR, ".form-link")
+    CREATE_ACCOUNT_ERROR_BLOCK = (By.CSS_SELECTOR, "#create_account_error")
