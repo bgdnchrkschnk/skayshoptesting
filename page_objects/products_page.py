@@ -53,3 +53,9 @@ class ProductsPage(BasePage):
                 return True
         else:
             return False
+
+
+    def check_all_products_with_sale(self):
+        for product in self.products:
+            assert ProductItemWebElement(
+                product).price, f"Sales price is absent on {ProductItemWebElement(product).title}"

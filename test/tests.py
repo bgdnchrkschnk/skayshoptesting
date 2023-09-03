@@ -12,8 +12,7 @@ def test_site_is_loaded(browser):
 
 def test_sales_products_all_items_with_sales_price(browser):
     browser = browser.navigate_to_sales_products()
-    for product in browser.products:
-        assert ProductItemWebElement(product).price, f"Sales price is absent on {ProductItemWebElement(product).title}"
+    browser.check_all_products_with_sale()
 
 
 def test_buy_product(browser):
@@ -22,7 +21,6 @@ def test_buy_product(browser):
     product_item = browser.get_product_item_by_article(article="00000037607-013")
     product_item.buy_button.click()
     assert browser.purchase_popup, "Purchase pop up has not been found on page!"
-    sleep(2)
     assert browser.check_product_in_popup_by_article(article="00000037607-013"), "Product has not been found by '00000037607-013' article!"
     assert browser.cart_counter == "1"
 
