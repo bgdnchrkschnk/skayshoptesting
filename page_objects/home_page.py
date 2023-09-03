@@ -4,14 +4,15 @@ from page_objects.base_page import *
 
 # Implement class home page elements to interact with
 class HomePage(BasePage):
-    def __init__(self, webdriver, url):
+    def __init__(self, webdriver, url=None):
         super().__init__(webdriver=webdriver)
-        self.webdriver.get(url=url)
+        if url:
+            self.webdriver.get(url=url)
 
     # Set as property to return popular product block
     @property
     def popular_products_block(self):
-        return self.wait.until(EC.visibility_of_any_elements_located(HomePageLocators.POPULAR_BLOCK.value))[1]
+        return self.wait.until(EC.visibility_of_any_elements_located(HomePageLocators.POPULAR_BLOCK.value))
 
     def navigate_to_sales_products(self):
         from page_objects.products_page import ProductsPage
@@ -22,3 +23,13 @@ class HomePage(BasePage):
         from page_objects.authorization_page import AuthorizationPage
         self.webdriver.get("https://skay.ua/uk/authentication/")
         return AuthorizationPage(webdriver=self.webdriver)
+
+    def check_popular_products_block_is_displayed(self):
+        state = False
+        while not state:
+            for block in self.popular_products_block:
+                if block.is_displayed() and block.is_enabled():
+                    state = True
+                    break
+            return True if state else False
+

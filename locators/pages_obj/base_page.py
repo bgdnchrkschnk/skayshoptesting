@@ -7,3 +7,4 @@ class BasePageLocators(BaseLocators):
     SEARCH_BUTTON = (By.CSS_SELECTOR, "[name=submit_search]")
     CART = (By.CSS_SELECTOR, ".title-cart")
     CART_COUNTER = (By.CSS_SELECTOR, ".ajax_cart_quantity_mod")
+    LANGUAGE_BUTTON = (By.CSS_SELECTOR, ".dropdown-toggle")

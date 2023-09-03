@@ -21,6 +21,10 @@ class AuthorizationPage(BasePage):
     def create_account_button_reg(self):
         return self.wait.until(EC.element_to_be_clickable(AuthorizationPageLocators.CREATE_ACCOUNT_BUTTON_REG.value))
 
+    def signup(self, email: str):
+        self.actions.\
+            send_keys_to_element(email, element=self.email_field_reg).\
+            click(on_element=self.create_account_button_reg).perform()
 
     """
     SIGN IN BLOCK ------------------------------------------------------------------------------------------------------
