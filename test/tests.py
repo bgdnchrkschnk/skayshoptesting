@@ -32,5 +32,7 @@ def test_site_language(browser):
     browser.language_button.click()
     browser.select_language(language="ru")
 
-#
-
+@pytest.mark.this
+def test_register_already_used_email(browser):
+    browser = browser.navigate_to_authorization_page()
+    browser.signup(email="bgdnchrkschnk@gmail.com")

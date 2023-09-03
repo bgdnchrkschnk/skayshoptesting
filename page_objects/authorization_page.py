@@ -23,8 +23,8 @@ class AuthorizationPage(BasePage):
 
     def signup(self, email: str):
         self.actions.\
-            send_keys_to_element(email, element=self.email_field_reg).\
-            click(on_element=self.create_account_button_reg).perform()
+            send_keys_to_element(email, self.email_field_reg).\
+            click(self.create_account_button_reg).perform()
 
     """
     SIGN IN BLOCK ------------------------------------------------------------------------------------------------------
