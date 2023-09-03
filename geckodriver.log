@@ -15,3 +15,149 @@ DevTools listening on ws://127.0.0.1:50979/devtools/browser/a68bec7d-c0c2-4806-9
 JavaScript warning: https://skay.ua/modules/belvg_preorderproducts/js/jquery.countdown.js, line 58: Script terminated by timeout at:
 timerCallBack@https://skay.ua/modules/belvg_preorderproducts/js/jquery.countdown.js:58:20
 
+1693783449710	geckodriver	INFO	Listening on 127.0.0.1:60434
+1693783450171	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/hn/29kq9z8d72g9p0twnx7z0wpw0000gn/T/rust_mozprofile9jsDzh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693783450724	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1693783450878	Marionette	INFO	Listening on port 60451
+WebDriver BiDi listening on ws://127.0.0.1:60435
+Read port: 60451
+1693783451019	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:60435/devtools/browser/11ac2045-52b1-42de-a86c-0a3c937a1724
+1693783453051	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1693783454951	Marionette	INFO	Stopped listening on port 60451
+JavaScript warning: https://skay.ua/js/jquery/jquery-2.2.4.min.js, line 3: Script terminated by timeout at:
+n.fx.tick@https://skay.ua/js/jquery/jquery-2.2.4.min.js:3:29610
+
+1693783467444	geckodriver	INFO	Listening on 127.0.0.1:60621
+1693783467962	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/hn/29kq9z8d72g9p0twnx7z0wpw0000gn/T/rust_mozprofile3bXGbd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693783468462	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1693783468586	Marionette	INFO	Listening on port 60637
+Read port: 60637
+WebDriver BiDi listening on ws://127.0.0.1:60622
+1693783468613	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:60622/devtools/browser/d18d3b64-53e0-4861-af48-a5c3f1518165
+1693783470436	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1693783474997	Marionette	INFO	Stopped listening on port 60637
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+n@https://connect.facebook.net/en_US/fbevents.js:24:2264
+a@https://connect.facebook.net/en_US/fbevents.js:24:85092
+A@https://connect.facebook.net/signals/config/1183766735846121?v=2.9.125&r=stable&domain=skay.ua:114:2136
+D@https://connect.facebook.net/signals/config/1183766735846121?v=2.9.125&r=stable&domain=skay.ua:114:2991
+e.exports</</<@https://connect.facebook.net/signals/config/1183766735846121?v=2.9.125&r=stable&domain=skay.ua:114:4059
+
+1693783484987	geckodriver	INFO	Listening on 127.0.0.1:60812
+1693783485506	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/hn/29kq9z8d72g9p0twnx7z0wpw0000gn/T/rust_mozprofileLK3y5b"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693783485823	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1693783486020	Marionette	INFO	Listening on port 60824
+Read port: 60824
+WebDriver BiDi listening on ws://127.0.0.1:60813
+1693783486042	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:60813/devtools/browser/28404447-099a-4a5c-b80d-2fade1d090f2
+1693783488067	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+1693783490876	Marionette	INFO	Stopped listening on port 60824
+JavaScript warning: https://skay.ua/js/jquery/jquery-2.2.4.min.js, line 2: Script terminated by timeout at:
+@https://skay.ua/js/jquery/jquery-2.2.4.min.js:2:1760
+@https://skay.ua/js/jquery/jquery-2.2.4.min.js:2:207
+@https://skay.ua/js/jquery/jquery-2.2.4.min.js:2:212
+
+JavaScript error: https://skay.ua/js/jquery/jquery-migrate-1.4.1.min.js, line 2: ReferenceError: jQuery is not defined
+JavaScript error: https://skay.ua/js/jquery/plugins/jquery.easing.js, line 13: ReferenceError: jQuery is not defined
+JavaScript error: https://skay.ua/js/tools.js, line 609: ReferenceError: $ is not defined
+JavaScript error: https://skay.ua/themes/leo_bestbuy/js/global.js, line 29: ReferenceError: $ is not defined
+JavaScript error: https://skay.ua/themes/leo_bestbuy/js/autoload/bootstrap.min.js, line 6: ReferenceError: jQuery is not defined
+JavaScript error: https://skay.ua/themes/leo_bestbuy/js/autoload/jquery.easing.compatibility.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://skay.ua/themes/leo_bestbuy/js/autoload/jquery.scrollTo.min.js, line 7: ReferenceError: jQuery is not defined
+JavaScript error: https://skay.ua/js/jquery/plugins/fancybox/jquery.fancybox.js, line 46: ReferenceError: jQuery is not defined
+JavaScript error: https://skay.ua/themes/leo_bestbuy/js/products-comparison.js, line 1: ReferenceError: $ is not defined
+JavaScript error: https://skay.ua/themes/leo_bestbuy/js/modules/blockcart/ajax-cart.js, line 35: ReferenceError: $ is not defined
+JavaScript error: https://skay.ua/js/jquery/plugins/bxslider/jquery.bxslider.js, line 10: ReferenceError: jQuery is not defined
+JavaScript error: https://skay.ua/themes/leo_bestbuy/js/modules/bamegamenu/views/js/megamenu.js, line 22: ReferenceError: $ is not defined
+JavaScript error: https://skay.ua/js/jquery/plugins/autocomplete/jquery.autocomplete.js, line 758: ReferenceError: jQuery is not defined
+JavaScript error: https://skay.ua/themes/leo_bestbuy/js/modules/categorysearch/categorysearch.js, line 1: ReferenceError: $ is not defined
+JavaScript error: https://skay.ua/themes/leo_bestbuy/js/local/custom.js, line 2: ReferenceError: $ is not defined
+JavaScript error: https://skay.ua/themes/leo_bestbuy/js/local/preorder_zfold1.3.js, line 1: ReferenceError: $ is not defined
+JavaScript error: https://skay.ua/modules/belvg_preorderproducts/js/jquery.countdown.js, line 800: ReferenceError: jQuery is not defined
+JavaScript error: https://skay.ua/modules/belvg_preorderproducts/js/ajax-preorder.js, line 194: ReferenceError: $ is not defined
+JavaScript error: https://skay.ua/js/jquery/plugins/jquery.scrollTo.js, line 7: ReferenceError: jQuery is not defined
+JavaScript error: https://skay.ua/js/jquery/plugins/jquery.serialScroll.js, line 10: ReferenceError: jQuery is not defined
+JavaScript error: https://skay.ua/themes/leo_bestbuy/js/modules/blocknewsletter/blocknewsletter.js, line 1: ReferenceError: $ is not defined
+JavaScript error: https://skay.ua/themes/leo_bestbuy/js/autoload/jquery.touchSwipe.min.js, line 15: ReferenceError: jQuery is not defined
+JavaScript error: https://skay.ua/js/jquery/plugins/growl/jquery.growl.js, line 14: ReferenceError: jQuery is not defined
+JavaScript error: https://skay.ua/modules/leocustomajax/leocustomajax.js, line 162: ReferenceError: jQuery is not defined
+JavaScript error: https://skay.ua/modules/leocustomajax/countdown.js, line 68: ReferenceError: jQuery is not defined
+JavaScript error: https://skay.ua/uk/module/categorysearch/catesearch?controller=catesearch&search_query=00000037607-013&fc=module&module=categorysearch&search_category=all&submit_search=, line 2054: ReferenceError: $ is not defined
+JavaScript error: https://skay.ua/modules/ecm_novaposhta/views/js/np_live.js?1693783490, line 1: ReferenceError: $ is not defined
+JavaScript error: https://skay.ua/modules/ecm_novaposhta/views/js/np.js?1693783490, line 2: ReferenceError: $ is not defined
+1693783519447	geckodriver	INFO	Listening on 127.0.0.1:61062
+1693783519962	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/hn/29kq9z8d72g9p0twnx7z0wpw0000gn/T/rust_mozprofilem3aM9a"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693783520498	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1693783520655	Marionette	INFO	Listening on port 61078
+WebDriver BiDi listening on ws://127.0.0.1:61063
+Read port: 61078
+1693783520801	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:61063/devtools/browser/e4cb10e8-8467-46ba-865b-c35f241d9984
+1693783523032	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1693783526627	Marionette	INFO	Stopped listening on port 61078
+JavaScript warning: https://skay.ua/themes/leo_bestbuy/js/lazysizes.min.js, line 2: Script terminated by timeout at:
+aa</</<@https://skay.ua/themes/leo_bestbuy/js/lazysizes.min.js:2:5089
+
+1693783547170	geckodriver	INFO	Listening on 127.0.0.1:61292
+1693783547690	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/hn/29kq9z8d72g9p0twnx7z0wpw0000gn/T/rust_mozprofileA6RGVI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693783548075	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1693783548209	Marionette	INFO	Listening on port 61308
+Read port: 61308
+WebDriver BiDi listening on ws://127.0.0.1:61293
+1693783548238	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:61293/devtools/browser/f684ea85-feec-4f5e-a9d4-90af5e929aed
+1693783550286	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+1693783556675	Marionette	INFO	Stopped listening on port 61308
+1693783583141	geckodriver	INFO	Listening on 127.0.0.1:61555
+1693783583659	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/hn/29kq9z8d72g9p0twnx7z0wpw0000gn/T/rust_mozprofileEDZayQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693783584040	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1693783584151	Marionette	INFO	Listening on port 61567
+WebDriver BiDi listening on ws://127.0.0.1:61556
+Read port: 61567
+1693783584286	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:61556/devtools/browser/1601ccc0-cc16-452b-8986-0c5b12ab2c40
+1693783586351	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+1693783597019	Marionette	INFO	Stopped listening on port 61567
+JavaScript warning: https://skay.ua/js/tools.js, line 569: Script terminated by timeout at:
+in_array@https://skay.ua/js/tools.js:569:2
+@https://skay.ua/themes/leo_bestbuy/js/global.js:80:8
+

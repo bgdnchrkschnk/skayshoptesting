@@ -1,3 +1,4 @@
+import os
 from time import sleep
 import pytest
 
@@ -14,7 +15,7 @@ def test_sales_products_all_items_with_sales_price(browser):
     browser = browser.navigate_to_sales_products()
     browser.check_all_products_with_sale()
 
-
+@pytest.mark.this
 def test_buy_product(browser):
     assert browser.cart_counter == "0"
     browser = browser.find_something_in_search_bar(something="00000037607-013")
@@ -24,7 +25,7 @@ def test_buy_product(browser):
     assert browser.check_product_in_popup_by_article(article="00000037607-013"), "Product has not been found by '00000037607-013' article!"
     assert browser.cart_counter == "1"
 
-# @pytest.mark.this
+
 def test_site_language(browser):
     assert browser.language_button, "Language button is not found on page!"
     browser.language_button.click()
@@ -35,3 +36,12 @@ def test_register_already_used_email(browser):
     browser = browser.navigate_to_authorization_page()
     browser.signup(email="bgdnchrkschnk@gmail.com")
     assert browser.create_account_error_block, "Error block has not asserted on page after existing email entered to signup"
+
+
+
+def test_forgot_pw_is_correct(browser):
+    browser = browser.navigate_to_authorization_page()
+    browser.forgot_pw.click()
+    sleep(3)
+    browser.enter_email_forgot_pw(email="bgdnchrkschnk@gmail.com")
+    assert browser.alert_success_block.is_displayed(), "No success message block after email was sent in forgot pw!"

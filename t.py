@@ -1,2 +1,3 @@
-l = [1,2,3]
-print(type(l))
+import os
+
+print(os.environ['my_email'])
