@@ -1,17 +1,19 @@
 from selenium.webdriver.common.by import By
 from locators.base_locators import BaseLocators
 
-
+# Locators for Registration block on Authorization page object
 class AuthorizationPageRegistrationLocators(BaseLocators):
     EMAIL_FIELD_REG = (By.CSS_SELECTOR, "#email_create")
     CREATE_ACCOUNT_BUTTON_REG = (By.CSS_SELECTOR, "#SubmitCreate")
     CREATE_ACCOUNT_ERROR_BLOCK = (By.CSS_SELECTOR, "#create_account_error")
 
+# Locators for Sign In block on Authorization page
 class AuthorizationPageSignInLocators(BaseLocators):
     EMAIL_FIELD_SIGNIN = (By.CSS_SELECTOR, "#email")
     CREATE_BUTTON_SIGNIN = (By.CSS_SELECTOR, "#passwd")
     SIGN_IN_BUTTON = (By.CSS_SELECTOR, "#SubmitLogin")
 
+# Locators for Forgot Pw block on Authorization page
 class AuthorizationPageForgotPwLocators(BaseLocators):
     FORGOT_PW = (By.CSS_SELECTOR, ".form-link")
     EMAIL_FIELD_FORGOT_PW = (By.CSS_SELECTOR, "#email")

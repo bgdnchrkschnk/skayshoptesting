@@ -4,7 +4,7 @@ from page_objects.home_page import HomePage
 from envs.helpers import *
 
 
-# Browser webdriver fixture - returns
+# Browser webdriver fixture - returns initialized webdriver
 @pytest.fixture
 def browser(request):  # request param for --browser pytest addoption value
     browser_name = request.param
