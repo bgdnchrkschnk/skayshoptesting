@@ -1,6 +1,7 @@
 from locators.pages_obj.products_page import *
 from page_objects.base_page import *
 from web_elements.product_item import ProductItemWebElement
+from allure import step
 
 
 class ProductsPage(BasePage):
@@ -39,13 +40,12 @@ class ProductsPage(BasePage):
         product_item = self.__get_product_item_by_(article=article)
         return ProductItemWebElement(webelement=product_item)
 
-
     def get_product_item_by_title(self, title: str):
         product_item = self.__get_product_item_by_(title=title)
         return ProductItemWebElement(webelement=product_item)
 
-
-    def check_product_in_popup_by_article(self, article: str):
+    @step("Check that product is present in cart pop up")
+    def check_product_in_cart_popup_by_article(self, article: str):
         elements = self.purchase_popup.find_elements(ProductsPageLocators.PURCHASE_POPUP_ARTICLE_DIV.by,
                                                      ProductsPageLocators.PURCHASE_POPUP_ARTICLE_DIV.locator)
         for element in elements:
@@ -54,7 +54,7 @@ class ProductsPage(BasePage):
         else:
             return False
 
-
+    @step("Check that each product on page has sale price")
     def check_all_products_with_sale(self):
         for product in self.products:
             assert ProductItemWebElement(

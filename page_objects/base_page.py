@@ -1,5 +1,4 @@
-from time import sleep
-
+from allure import step
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -51,12 +50,13 @@ class BasePage:
     def language_button(self):
         return self.wait.until(EC.element_to_be_clickable(BasePageLocators.LANGUAGE_BUTTON.value))
 
-
+    @step("Find product in search bar")
     def find_something_in_search_bar(self, something: str):
         from page_objects.products_page import ProductsPage
         self.actions.send_keys_to_element(self.search_bar, something).click(on_element=self.search_button).perform()
         return ProductsPage(webdriver=self.webdriver)
 
+    @step("Switch site language")
     def select_language(self, language: str):
         if language == "ua" or language == 'uk':
             button_ua = self.wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "[title=Ukrainian]")))

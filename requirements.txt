@@ -4,3 +4,4 @@ click
 pyyaml
 pytest-xdist
 requests
+allure-pytest

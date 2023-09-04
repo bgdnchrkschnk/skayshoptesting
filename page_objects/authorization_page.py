@@ -1,5 +1,5 @@
 from selenium.webdriver.remote.webelement import WebElement
-
+from allure import step
 from page_objects.base_page import *
 from locators.pages_obj.authorization_page import AuthorizationPageRegistrationLocators, \
     AuthorizationPageSignInLocators, AuthorizationPageForgotPwLocators
@@ -25,19 +25,18 @@ class AuthorizationPage(BasePage):
             EC.element_to_be_clickable(AuthorizationPageRegistrationLocators.CREATE_ACCOUNT_BUTTON_REG.value))
 
     # Function enters provided email into email field and clicks on create account button (Registration block)
+    @step("Fill out email into email field")
     def signup(self, email: str):
         self.actions \
             .send_keys_to_element(self.email_field_reg, email) \
             .pause(2) \
-            .click(self.create_account_button_reg) \
-            .pause(1) \
             .perform()
 
     # Error block which is displayed after unsuccessful providing email
     @property
     def create_account_error_block(self):
         return self.wait.until(
-            EC.presence_of_element_located(AuthorizationPageRegistrationLocators.CREATE_ACCOUNT_ERROR_BLOCK.value))
+            EC.visibility_of_element_located(AuthorizationPageRegistrationLocators.CREATE_ACCOUNT_ERROR_BLOCK.value))
 
     """
     SIGN IN BLOCK ------------------------------------------------------------------------------------------------------
@@ -86,6 +85,6 @@ class AuthorizationPage(BasePage):
             EC.presence_of_element_located(AuthorizationPageForgotPwLocators.ALERT_SUCCESS_BLOCK.value))
 
     # Function enters provided email and confirms (Forgot pw block)
+    @step("Fill out email into email field")
     def enter_email_forgot_pw(self, email: str):
-        self.actions.send_keys_to_element(self.email_forgot_pw, email).pause(1).click(
-            self.confirm_email_forgot_pw_button).pause(2).perform()
+        self.actions.send_keys_to_element(self.email_forgot_pw, email).pause(1).perform()
