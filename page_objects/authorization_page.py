@@ -4,10 +4,11 @@ from page_objects.base_page import *
 from locators.pages_obj.authorization_page import AuthorizationPageRegistrationLocators, \
     AuthorizationPageSignInLocators, AuthorizationPageForgotPwLocators
 
+
 # Page Object class for Authorization page
 class AuthorizationPage(BasePage):
-    def __init__(self, webdriver):
-        super().__init__(webdriver=webdriver)
+    def __init__(self, webdriver, logger):
+        super().__init__(webdriver=webdriver, logger=logger)
 
     """
     REGISTRATION BLOCK--------------------------------------------------------------------------------------------------
@@ -16,7 +17,11 @@ class AuthorizationPage(BasePage):
     # Email field of Registration block
     @property
     def email_field_reg(self):
-        return self.wait.until(EC.element_to_be_clickable(AuthorizationPageRegistrationLocators.EMAIL_FIELD_REG.value))
+        try:
+            self.logger.debug(f"Searching for email field by {AuthorizationPageRegistrationLocators.EMAIL_FIELD_REG.value}")
+            return self.wait.until(EC.element_to_be_clickable(AuthorizationPageRegistrationLocators.EMAIL_FIELD_REG.value))
+        except TimeoutError as te:
+            self.logger.error(f"Email field not found!")
 
     # Create account button of Registration block
     @property
@@ -27,6 +32,7 @@ class AuthorizationPage(BasePage):
     # Function enters provided email into email field and clicks on create account button (Registration block)
     @step("Fill out email into email field")
     def signup(self, email: str):
+        self.logger.debug(f"Sending keys to email field..")
         self.actions \
             .send_keys_to_element(self.email_field_reg, email) \
             .pause(2) \
@@ -87,4 +93,5 @@ class AuthorizationPage(BasePage):
     # Function enters provided email and confirms (Forgot pw block)
     @step("Fill out email into email field")
     def enter_email_forgot_pw(self, email: str):
+        self.logger.debug(f"Sending keys to email forgot pw field..")
         self.actions.send_keys_to_element(self.email_forgot_pw, email).pause(1).perform()

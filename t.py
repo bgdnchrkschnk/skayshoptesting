@@ -1,3 +1,5 @@
-import os
+import logging
 
-print(os.environ['my_email'])
+logger = logging.getLogger()
+
+print(type(logger))

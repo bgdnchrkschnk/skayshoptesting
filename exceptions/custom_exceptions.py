@@ -1,0 +1,2 @@
+class UnsuccessfulNavigatingToPage(Exception):
+    pass
