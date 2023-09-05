@@ -1,9 +1,5 @@
 from time import sleep
 import pytest
-from allure import attach, attachment_type, title, description, severity, severity_level
-from time import sleep
-
-import pytest
 from allure import attach, attachment_type, title, description, severity, severity_level, suite, testcase
 
 @suite("Smoke testing")
