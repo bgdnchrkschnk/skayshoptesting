@@ -161,3 +161,142 @@ JavaScript warning: https://skay.ua/js/tools.js, line 569: Script terminated by 
 in_array@https://skay.ua/js/tools.js:569:2
 @https://skay.ua/themes/leo_bestbuy/js/global.js:80:8
 
+1694037684308	geckodriver	INFO	Listening on 127.0.0.1:52971
+1694037684764	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/hn/29kq9z8d72g9p0twnx7z0wpw0000gn/T/rust_mozprofilek21rf5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694037685433	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694037685739	Marionette	INFO	Listening on port 52980
+WebDriver BiDi listening on ws://127.0.0.1:52972
+Read port: 52980
+1694037685923	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:52972/devtools/browser/a559e705-f2a1-419e-a334-428c4d74d908
+1694037688384	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1694037690779	Marionette	INFO	Stopped listening on port 52980
+JavaScript warning: https://skay.ua/modules/belvg_preorderproducts/js/jquery.countdown.js, line 58: Script terminated by timeout at:
+timerCallBack@https://skay.ua/modules/belvg_preorderproducts/js/jquery.countdown.js:58:20
+
+1694037877262	geckodriver	INFO	Listening on 127.0.0.1:53094
+1694037877778	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/hn/29kq9z8d72g9p0twnx7z0wpw0000gn/T/rust_mozprofileyGdtfm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694037878303	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694037878568	Marionette	INFO	Listening on port 53102
+WebDriver BiDi listening on ws://127.0.0.1:53095
+Read port: 53102
+1694037878740	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:53095/devtools/browser/8711102f-5120-499d-ab1e-6175c7257290
+1694037880705	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1694037882857	Marionette	INFO	Stopped listening on port 53102
+JavaScript warning: https://skay.ua/js/jquery/jquery-2.2.4.min.js, line 3: Script terminated by timeout at:
+n.fx.tick@https://skay.ua/js/jquery/jquery-2.2.4.min.js:3:29610
+
+1694037896468	geckodriver	INFO	Listening on 127.0.0.1:53206
+1694037896982	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/hn/29kq9z8d72g9p0twnx7z0wpw0000gn/T/rust_mozprofile01iGMQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694037897626	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694037897808	Marionette	INFO	Listening on port 53214
+Read port: 53214
+WebDriver BiDi listening on ws://127.0.0.1:53207
+1694037897847	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:53207/devtools/browser/20db4ce5-da01-46c8-89cf-13cd74ca9b6b
+1694037899771	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1694037902967	Marionette	INFO	Stopped listening on port 53214
+1694037915857	geckodriver	INFO	Listening on 127.0.0.1:53325
+1694037916369	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/hn/29kq9z8d72g9p0twnx7z0wpw0000gn/T/rust_mozprofileUyR9zY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694037916984	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694037917287	Marionette	INFO	Listening on port 53333
+WebDriver BiDi listening on ws://127.0.0.1:53326
+Read port: 53333
+1694037917466	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:53326/devtools/browser/8d1ce655-8ccf-411a-9206-5216e5148c07
+1694037919875	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+1694037923415	Marionette	INFO	Stopped listening on port 53333
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-945980873, line 237: Script terminated by timeout at:
+um@https://www.googletagmanager.com/gtag/js?id=AW-945980873:237:710
+Qo@https://www.googletagmanager.com/gtag/js?id=AW-945980873:279:334
+Sp@https://www.googletagmanager.com/gtag/js?id=AW-945980873:301:96
+Dr@https://www.googletagmanager.com/gtag/js?id=AW-945980873:321:120
+KB@https://www.googletagmanager.com/gtag/js?id=AW-945980873:426:161
+MB@https://www.googletagmanager.com/gtag/js?id=AW-945980873:427:463
+bw@https://www.googletagmanager.com/gtag/js?id=AW-945980873:374:298
+aw.prototype.flush@https://www.googletagmanager.com/gtag/js?id=AW-945980873:377:95
+aw.prototype.push@https://www.googletagmanager.com/gtag/js?id=AW-945980873:375:207
+config@https://www.googletagmanager.com/gtag/js?id=AW-945980873:383:497
+bx@https://www.googletagmanager.com/gtag/js?id=AW-945980873:395:472
+fx/b.push@https://www.googletagmanager.com/gtag/js?id=AW-945980873:400:315
+gtag@https://skay.ua/uk/module/categorysearch/catesearch?controller=catesearch&search_query=00000037607-013&fc=module&module=categorysearch&search_category=all&submit_search=:22:41
+@https://skay.ua/uk/module/categorysearch/catesearch?controller=catesearch&search_query=00000037607-013&fc=module&module=categorysearch&search_category=all&submit_search=:26:19
+
+1694037935256	geckodriver	INFO	Listening on 127.0.0.1:53442
+1694037935756	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/hn/29kq9z8d72g9p0twnx7z0wpw0000gn/T/rust_mozprofilev7fkWg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694037936208	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694037936400	Marionette	INFO	Listening on port 53450
+WebDriver BiDi listening on ws://127.0.0.1:53443
+Read port: 53450
+1694037936630	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:53443/devtools/browser/e98b9439-3b19-4117-ad3a-40b964730c6e
+1694037938696	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1694037941356	Marionette	INFO	Stopped listening on port 53450
+JavaScript warning: https://skay.ua/js/jquery/jquery-2.2.4.min.js, line 3: Script terminated by timeout at:
+n.fx.tick@https://skay.ua/js/jquery/jquery-2.2.4.min.js:3:29610
+
+1694037960454	geckodriver	INFO	Listening on 127.0.0.1:53563
+1694037960969	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/hn/29kq9z8d72g9p0twnx7z0wpw0000gn/T/rust_mozprofileqMvkQ1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694037961514	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694037961667	Marionette	INFO	Listening on port 53571
+WebDriver BiDi listening on ws://127.0.0.1:53564
+Read port: 53571
+1694037961806	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:53564/devtools/browser/5cb93b0c-3f34-499f-b60d-8733e88f5a1d
+1694037963736	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+1694037969342	Marionette	INFO	Stopped listening on port 53571
+1694037993423	geckodriver	INFO	Listening on 127.0.0.1:53684
+1694037993935	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/hn/29kq9z8d72g9p0twnx7z0wpw0000gn/T/rust_mozprofilej9LQdc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694037994311	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694037994465	Marionette	INFO	Listening on port 53692
+WebDriver BiDi listening on ws://127.0.0.1:53685
+Read port: 53692
+1694037994646	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:53685/devtools/browser/dc93dca3-2837-433e-949c-0025661456b4
+1694037996415	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+1694038004242	Marionette	INFO	Stopped listening on port 53692
+JavaScript warning: https://skay.ua/themes/leo_bestbuy/js/lazysizes.min.js, line 2: Script terminated by timeout at:
+h@https://skay.ua/themes/leo_bestbuy/js/lazysizes.min.js:2:1934
+A/<@https://skay.ua/themes/leo_bestbuy/js/lazysizes.min.js:2:2073
+
