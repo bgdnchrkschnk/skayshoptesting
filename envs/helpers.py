@@ -1,14 +1,23 @@
 from selenium.webdriver import Chrome, Safari, Firefox
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.safari.options import Options
+from selenium.webdriver.firefox.options import Options
 
 
 # Get webdriver depending on entered --browser
 def get_driver(browser_name: str):
     if browser_name == "chrome":
+        chrome_options = Options()
+        chrome_options.add_argument("--headless")
         return Chrome()
     elif browser_name == "safari":
-        return Safari()
+        safari_options = Options()
+        safari_options.add_argument("--headless")
+        return Safari(options=safari_options)
     elif browser_name == "firefox":
-        return Firefox()
+        firefox_options = Options()
+        firefox_options.add_argument("--headless")
+        return Firefox(options=firefox_options)
     else:
         raise AssertionError("Incorrect browser name entered. Available value: chrome, safari, firefox")
 
