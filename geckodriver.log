@@ -300,3 +300,121 @@ JavaScript warning: https://skay.ua/themes/leo_bestbuy/js/lazysizes.min.js, line
 h@https://skay.ua/themes/leo_bestbuy/js/lazysizes.min.js:2:1934
 A/<@https://skay.ua/themes/leo_bestbuy/js/lazysizes.min.js:2:2073
 
+1695163877218	geckodriver	INFO	Listening on 127.0.0.1:61678
+1695163877732	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/hn/29kq9z8d72g9p0twnx7z0wpw0000gn/T/rust_mozprofileM5SBm4"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695163878103	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1695163878470	Marionette	INFO	Listening on port 61686
+WebDriver BiDi listening on ws://127.0.0.1:61679
+Read port: 61686
+1695163878644	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:61679/devtools/browser/994aec86-29a2-493a-9286-d199856cb061
+1695163879921	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1695163882116	Marionette	INFO	Stopped listening on port 61686
+JavaScript warning: https://skay.ua/js/jquery/jquery-2.2.4.min.js, line 3: Script terminated by timeout at:
+n.fx.tick@https://skay.ua/js/jquery/jquery-2.2.4.min.js:3:29610
+
+1695163882880	geckodriver	INFO	Listening on 127.0.0.1:61747
+1695163883395	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/hn/29kq9z8d72g9p0twnx7z0wpw0000gn/T/rust_mozprofile1XNUSp"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695163883655	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1695163884002	Marionette	INFO	Listening on port 61755
+WebDriver BiDi listening on ws://127.0.0.1:61748
+Read port: 61755
+1695163884146	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:61748/devtools/browser/e854771d-677f-4d73-9384-4d54008a696e
+1695163885286	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1695163889921	Marionette	INFO	Stopped listening on port 61755
+1695163890673	geckodriver	INFO	Listening on 127.0.0.1:61816
+1695163891186	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/hn/29kq9z8d72g9p0twnx7z0wpw0000gn/T/rust_mozprofile0SARRd"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695163891472	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1695163891817	Marionette	INFO	Listening on port 61824
+WebDriver BiDi listening on ws://127.0.0.1:61817
+Read port: 61824
+1695163891964	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:61817/devtools/browser/a963eec9-009b-4011-80f6-f18ba1fdeaaa
+1695163893638	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+1695163897069	Marionette	INFO	Stopped listening on port 61824
+1695163897815	geckodriver	INFO	Listening on 127.0.0.1:61885
+1695163898331	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/hn/29kq9z8d72g9p0twnx7z0wpw0000gn/T/rust_mozprofileuLYYBA"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695163898626	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1695163898973	Marionette	INFO	Listening on port 61893
+WebDriver BiDi listening on ws://127.0.0.1:61886
+Read port: 61893
+1695163899125	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:61886/devtools/browser/e952478b-3f08-497a-b2b1-e9fb4c8339fd
+1695163900980	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1695163903863	Marionette	INFO	Stopped listening on port 61893
+JavaScript warning: https://skay.ua/modules/belvg_preorderproducts/js/jquery.countdown.js, line 58: Script terminated by timeout at:
+timerCallBack@https://skay.ua/modules/belvg_preorderproducts/js/jquery.countdown.js:58:20
+
+1695163904606	geckodriver	INFO	Listening on 127.0.0.1:61954
+1695163905122	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/hn/29kq9z8d72g9p0twnx7z0wpw0000gn/T/rust_mozprofileXzkpJX"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695163905408	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1695163905757	Marionette	INFO	Listening on port 61962
+WebDriver BiDi listening on ws://127.0.0.1:61955
+Read port: 61962
+1695163905907	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:61955/devtools/browser/41eba968-c945-4d7e-bf18-42a7edad8f1d
+1695163907426	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+1695163914296	Marionette	INFO	Stopped listening on port 61962
+JavaScript warning: https://skay.ua/modules/ecm_novaposhta/views/js/np_live.js?1695163910, line 66: Script terminated by timeout at:
+np_live_init_opc<@https://skay.ua/modules/ecm_novaposhta/views/js/np_live.js?1695163910:66:2
+
+1695163915042	geckodriver	INFO	Listening on 127.0.0.1:62023
+1695163915559	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/hn/29kq9z8d72g9p0twnx7z0wpw0000gn/T/rust_mozprofileoAVU5F"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695163915843	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1695163916188	Marionette	INFO	Listening on port 62031
+Read port: 62031
+WebDriver BiDi listening on ws://127.0.0.1:62024
+1695163916224	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:62024/devtools/browser/f61d95e4-bac4-4964-b9f9-13910140a909
+1695163917521	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://skay.ua."
+1695163926447	Marionette	INFO	Stopped listening on port 62031
+JavaScript warning: https://skay.ua/themes/leo_bestbuy/js/lazysizes.min.js, line 2: Script terminated by timeout at:
+x@https://skay.ua/themes/leo_bestbuy/js/lazysizes.min.js:2:1652
+T@https://skay.ua/themes/leo_bestbuy/js/lazysizes.min.js:2:2851
+U@https://skay.ua/themes/leo_bestbuy/js/lazysizes.min.js:2:2940
+V@https://skay.ua/themes/leo_bestbuy/js/lazysizes.min.js:2:3796
+h@https://skay.ua/themes/leo_bestbuy/js/lazysizes.min.js:2:2227
+
