@@ -9,7 +9,7 @@ def get_driver(browser_name: str):
     if browser_name == "chrome":
         chrome_options = Options()
         chrome_options.add_argument("--headless")
-        return Chrome()
+        return Chrome(options=chrome_options)
     elif browser_name == "safari":
         safari_options = Options()
         safari_options.add_argument("--headless")
