@@ -10,7 +10,7 @@ class ProductsPage(BasePage):
 
     @property
     def products(self):
-        return self.wait.until(EC.visibility_of_any_elements_located(ProductsPageLocators.PRODUCTS_ON_PAGE.value))
+        return self.wait.until(EC.visibility_of_all_elements_located(ProductsPageLocators.PRODUCTS_ON_PAGE.value))
 
     @property
     def purchase_popup(self):
